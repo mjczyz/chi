@@ -1,6 +1,6 @@
 <?php 
 
-$link = mysql_connect("localhost", "stez_user", "stez_1889");
+$link = mysql_connect("localhost", "###");
 mysql_select_db("banquet", $link);
 
 $result = mysql_query("SELECT * FROM invite_list where RSVP_Yes='Yes'", $link);
