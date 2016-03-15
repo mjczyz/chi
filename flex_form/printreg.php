@@ -140,10 +140,7 @@ Name: </span></td>
     </tr><tr><td>
 	<? 
 /*
-$hostName = "cmlnkwiki";
-$userName = "intranet";
-$password = "password";
-$dbName = "bmvtraining_db";
+
 
 mysql_connect($hostName,$userName,$password) or die("Unable to connect to host $hostName");
 mysql_select_db($dbName) or die("Unable to select database $dbName");
