@@ -8,8 +8,8 @@ $_SESSION["Assoc_pass"] = $_POST['upass'];
 if ($_POST[loginaccount])
 {
 include ('config.php');
-$result = mssql_query("SELECT * FROM listdb.dbo.vwuser where uid='$_POST[uid]' AND upass='$_POST[upass]'");
-//$q = mssql_query("SELECT [tid] FROM [listdb].[dbo].[vwwebaccess] where [uid]='user' and [upass]='pass' and [dept]='ortho'");
+$result = mssql_query("SELECT * FROM ### where uid='$_POST[uid]' AND upass='$_POST[upass]'");
+//$q = mssql_query("SELECT [tid] FROM ### where [uid]='user' and [upass]='pass' and [dept]='ortho'");
 //$q = mysql_query("select * from users WHERE username = '$_POST[user]';");
 while($f=mssql_fetch_array($result))
 {
