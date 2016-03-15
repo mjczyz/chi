@@ -4,8 +4,7 @@ header("Expires: 0");
 header("Cache-Control: must-revalidate, post-check=0, pre-check=0");
 //http://www.phpfreaks.com/tutorials/114/0.php
 define(db_host, "cmlnklamp01"); 
-define(db_user, "stez_user"); 
-define(db_pass, "stez_1889"); 
+
 define(db_link, mysql_connect(db_host,db_user,db_pass)); 
 define(db_name, "banquet"); 
 mysql_select_db(db_name); 
