@@ -69,7 +69,7 @@ $rto_points = 1.5;
 }
 
 // Make a MySQL Connection
-mysql_connect("localhost", "stez_user", "stez_1889") or die(mysql_error());
+mysql_connect("localhost", "###", "###") or die(mysql_error());
 mysql_select_db("ccupcu") or die(mysql_error());
 
 $result = mysql_query("INSERT INTO flex_form (employee,first_name,last_name,dept,date,weekday,weekday_points,weekend,weekend_points,premium,premium_points,the_float,float_points,rto,rto_points,sched_change,sched_change_points,short_notice,short_notice_points,comments) VALUES('$employee','$first_name','$last_name','$dept','$the_date','$weekday','$weekday_points','$weekend','$weekend_points','$premium','$premium_points','$float','$float_points','$rto','$rto_points','$sched_change','$sched_change_points','$short_notice','$short_notice_points','$comments')") or die(mysql_error()); 
